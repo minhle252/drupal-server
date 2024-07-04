@@ -1,0 +1,7 @@
+enabled: true
+allowedHeaders: ['x-csrf-token','authorization','content-type','accept','origin','x-requested-with','cache-control']
+allowedMethods: ['GET','POST','OPTIONS','PATCH','PUT','DELETE']
+allowedOrigins: ['*']
+exposedHeaders: false
+maxAge: 1000
+supportsCredentials: true

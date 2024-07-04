@@ -1,0 +1,23 @@
+helloworld.content:
+  path: '/api/about-us'
+  defaults:
+    _controller: 'Drupal\helloworld\Controller\HelloWorldController::abouUsApi'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+helloworld.delete:
+  path: '/api/about-us-delete'
+  defaults:
+    _controller: 'Drupal\helloworld\Controller\HelloWorldController::deteteItemApi'
+    _title: 'Detele item'
+  requirements:
+    _permission: 'access content'
+
+helloworld.sort:
+  path: '/api/about-us-sort'
+  defaults:
+    _controller: 'Drupal\helloworld\Controller\HelloWorldController::SortItemApi'
+    _title: 'Detele item'
+  requirements:
+    _permission: 'access content'
